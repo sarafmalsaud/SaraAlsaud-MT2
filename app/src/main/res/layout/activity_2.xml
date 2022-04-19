@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+            <TextView
+                android:id="@+id/txtID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID:" />
+
+            <EditText
+                android:id="@+id/editTextID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txtSurnameName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surname" />
+
+            <EditText
+                android:id="@+id/EdittxtSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+
+            <TextView
+                android:id="@+id/txtNID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="National ID" />
+
+            <EditText
+                android:id="@+id/editTextNID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bttnInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="insert"
+            android:textColor="#FEFEFF"
+            app:backgroundTint="#673AB7" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/goto1act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Go to 1st activity"
+        app:backgroundTint="#D55C5C" />
+
+    <Button
+        android:id="@+id/goto3act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Go to 3rd Activity"
+        app:backgroundTint="#CC4747" />
+
+
+
+</LinearLayout>

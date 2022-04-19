@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SaraAlsaud-MT2</string>
+
+    <string-array name="choose">
+        <item>Riyadh</item>
+        <item>Sydney</item>
+        <item>Vienna</item>
+    </string-array>
+
+
+</resources>
